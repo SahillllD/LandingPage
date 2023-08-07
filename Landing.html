@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero-section {
+      background-image: url(img1.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-content {
+      text-align: center;
+    }
+
+    .hero-content h1 {
+      font-size: 40px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff5500;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .about-section {
+      background-color: #f2f2f2;
+      padding: 50px;
+    }
+
+    .about-content {
+      text-align: center;
+    }
+
+    .about-content h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .about-content p {
+      font-size: 18px;
+    }
+
+    .contact-section {
+      padding: 50px;
+    }
+
+    .contact-content {
+      text-align: center;
+    }
+
+    .contact-content h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .contact-content form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .contact-content input,
+    .contact-content textarea {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-content button {
+      background-color: #ff5500;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Your Catchy Headline</h1>
+      <p>Your supporting statement goes here.</p>
+      <a href="#about" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>Briefly describe your company's mission and values here.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
